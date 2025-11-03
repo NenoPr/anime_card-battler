@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { BattleUI } from "@/components/BattleUI";
+import BattleUI  from "../components/BattleUI";
 
-export default function Home() {
+export default function Page() {
   return <BattleUI />;
 }
 
